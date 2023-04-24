@@ -14,12 +14,7 @@
   --btn-bord: rgba(0, 0, 0, 0.15);
   --team-shadow: rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 2px 1px rgba(46, 47, 66, 0.08);
-
   --btn-color: var(--color-cornflower);
-  --anim-fast:      transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    transition-duration: 250ms; transition-timing-function:
-      cubic-bezier(0.4, 0, 0.2, 1) ;
-
 }
 
 body {
@@ -120,7 +115,7 @@ img {
 }
 .container-header {
   display: flex;
-  padding: 24 0 24 0;
+  padding: 24px 0px;
   align-items: center;
 }
 .heder {
@@ -373,8 +368,7 @@ border-radius: 2px;
 .feature-title {
   line-height: 1.2;
 }
-.features-section {
-}
+
 .features-item {
   align-items: flex-start;
   padding: 0px;
@@ -434,8 +428,8 @@ border-radius: 2px;
   margin-bottom: 72px;
 }
 .team-item {
-  width: calc((100%- (32 * 2) / 4));
-  background-color: var(--color-white);
+  width: calc(100% - ((32 * 2) / 4));
+  background-color: var(--color-white) ;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -524,8 +518,7 @@ border-radius: 2px;
   padding-top: 120px;
   padding-bottom: 120px;
 }
-.customers-container {
-}
+
 .container {
   margin-left: auto;
   margin-right: auto;
